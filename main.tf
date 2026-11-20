@@ -17,7 +17,7 @@ variable "environment" {
 resource "random_pet" "application" {
   prefix    = var.environment
   length    = 2
-  separator = "-"
+  separator = "."
 }
 
 output "application_name" {
